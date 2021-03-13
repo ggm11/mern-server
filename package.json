@@ -1,0 +1,21 @@
+{
+  "name": "mern-server",
+  "version": "1.0.0",
+  "description": "MERN API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": "https://github.com/ggm11/mern-server.git",
+  "author": "gabriel <gabrigm90.11@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.0"
+  }
+}
